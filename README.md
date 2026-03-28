@@ -1,12 +1,14 @@
 # deepLearningStart
 
-[中文](#中文) | [English](#english)
+<p>
+  <a href="javascript:void(0)" onclick="document.getElementById('zh').style.display='block';document.getElementById('en').style.display='none'">中文</a>
+  &nbsp;|&nbsp;
+  <a href="javascript:void(0)" onclick="document.getElementById('en').style.display='block';document.getElementById('zh').style.display='none'">English</a>
+</p>
 
----
+<div id="zh">
 
-## 中文
-
-跟着《深度学习入门：基于Python的理论与实现》（鱼书）敲的代码，用 Jupyter Notebook 写的，边学边记。
+基于《深度学习入门：基于Python的理论与实现》（鱼书）敲的代码，用 Jupyter Notebook 写的代码，但有些和鱼书不太一样。
 
 **内容**
 
@@ -19,9 +21,9 @@
 
 Python + Jupyter Notebook，依赖标准深度学习库（numpy 等）。
 
----
+</div>
 
-## English
+<div id="en" style="display:none">
 
 Code written while reading *Deep Learning from Scratch* (the "fish book"), using Jupyter Notebooks.
 
@@ -35,3 +37,5 @@ Code written while reading *Deep Learning from Scratch* (the "fish book"), using
 **Environment**
 
 Python + Jupyter Notebook, standard deep learning libs (numpy, etc.).
+
+</div>
